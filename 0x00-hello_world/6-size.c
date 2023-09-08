@@ -11,6 +11,6 @@ int main(void)
 	long long int lli;
 	float f;
 
-	printf("Size of a char: %lu byte(s)\nSize of an int: %lu byte(s)\nSize of a long int: %lu byte(s)\nSize of a long long int: %lu byte(s)\nSize of a float: %lu byte(s)\n", (unsigned long)sizeof(ch), (unsigned long)sizeof(i), (unsigned long)sizeof(li), (unsigned long)sizeof(lli), (unsigned long)sizeof(f));
+	printf("Size of a char: %lu byte(s)\nSize of an int: %lu byte(s)\nSize of a long int: %lu byte(s)\nSize of a long long int: %lu byte(s)\nSize of a float: %lu byte(s)", (unsigned long)sizeof(ch), (unsigned long)sizeof(i), (unsigned long)sizeof(li), (unsigned long)sizeof(lli), (unsigned long)sizeof(f));
 return (0);
 }
