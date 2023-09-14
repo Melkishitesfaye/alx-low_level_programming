@@ -1,18 +1,15 @@
+#include <ctype.h>
 #include "main.h"
 
 /**
- * main -  prints the alphabet, in lowercase.
- * Return: void
+ * _islower - checks for lowercase character.
+ * Return: 0 || 1(Success)
  */
 
-void print_alphabet(void)
+int _islower(int c)
 {
-	char alp = 'a';
-
-		for (; alp <= 'z'; alp++)
-		{
-			_putchar(alp);
-		}
-		_putchar('\n');
+	if (islower(c))
+		return (1);
+	else
+		return (0);
 }
-
