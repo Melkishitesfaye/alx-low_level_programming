@@ -8,9 +8,14 @@
 
 void print_numbers(void)
 {
-	int i = '0';
+	int i = 48;
 
+<<<<<<< HEAD
 		for (; i <= '9'; i++)
+=======
+		for(; i <= 57; i++)
+		{
+>>>>>>> 4721976a92aad6ffedf4e2cbde0ddb259f8b85f8
 			_putchar(i);
 		_putchar('\n');
 }
