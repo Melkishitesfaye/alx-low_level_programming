@@ -10,7 +10,7 @@
 
 int _strcmp(char *s1, char *s2)
 {
-	long unsigned int i = 0;
+	unsigned int i = 0;
 
 		while (i < strlen(s1) && i < strlen(s2))
 		{
